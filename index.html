@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ödev 1</title>
+</head>
+
+<body>
+    <div class="app-content">
+        <div class="input-part">
+            <input id="userInput" class="userInput" type="text" placeholder="Type Github username here..">
+            <button id="submitBtn" class="submitBtn" type="submit">Analyze</button>
+        </div>
+        <div class="result-part">
+            <div class="resultPartTitle">
+                <p>Result</p>
+            </div>
+            <div class="results">
+                <div class="infoPart">
+                    <div class="userInfo">
+                        <div id="profileImg" class="profileImg"></div>
+                        <div class="names">
+                            <p id="userName" class="userName">----</p>
+                            <p id="profileName" class="profileName">----</p>
+                        </div>
+                    </div>
+                    <div class="accountInfo">
+                        <div class="values">
+                            <p id="userRepos" class="userRepos">-</p>
+                            <p id="memory" class="memory">-</p>
+                        </div>
+                        <div class="units">
+                            <p>repo(s)</p>
+                            <p>code</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div id="usedLanguagesPart" class="usedLanguagesPart">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
